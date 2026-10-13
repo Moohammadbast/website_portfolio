@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #222222;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #12284c;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#hoofdmenu ul{
+    list-style: none;
+
+    margin: 10px 0 0 0 ;
+    padding: 0;
+}
+
+#hoofdmenu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#hoofdmenu a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+#hoofdmenu a:hover{
+    background-color: #2a4f8f;
+}
+
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 1.5rem;
+    color: #12284c;
+    margin: 25px 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2a4f8f;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: #2a4f8f;
+    margin: 20px 0 8px 0;
+}
+
+p{
+    margin: 0 0 12px 0;
+}
+
+main a{
+    color: #2a4f8f;
+}
+
+.foto{
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+}
+
+caption{
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+th,td{
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #12284c;
+    color: #ffffff;
+}
+
+form div{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+button{
+    background-color: #12284c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2a4f8f;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #555555;
+}
